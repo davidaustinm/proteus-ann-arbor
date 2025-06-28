@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-section-name" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Section Title</title>
+
+  <p> Text of section. </p>
+
+  <figure xml:id="fig-linear-combs">
+    <caption>A <prefigure/> diagram</caption>
+    <image width="60%">
+      <prefigure xmlns="https://prefigure.org"
+              label="prefigure-linear-combs">
+        <xi:include href="prefigure/linear-combs.xml" />
+    </prefigure>
+  </image>
+  </figure>
+
+  <!--
+  <exercise xml:id="exercise-linear-transformations">
+    <title>Linear transformations</title>
+
+    <statement>
+      <p>
+        Match the matrix to the image of the unit square as depicted in <xref ref="diagram-unit-square"/>.
+      </p>
+      <figure xml:id="diagram-unit-square">
+        <caption>The unit square</caption>
+        <image width="60%">
+          <prefigure xmlns="https://prefigure.org"
+                  label="prefigure-unit-square">
+            <diagram dimensions="(200,200)" margins="5">
+              <rectangle lower-left="(-10,-10)" dimensions="(220,220)" fill="white"/>
+              <coordinates bbox="(-3,-3,3,3)">
+                <grid-axes decorations="no"/>
+                <group transform="rotate(0)">
+                  <rectangle lower-left="(0,0)" dimensions="(1,1)"
+                    fill="cornflowerblue" stroke="black"/>
+                </group>
+              </coordinates>
+            </diagram>
+          </prefigure>
+          </image>
+        </figure>
+    
+    </statement>
+
+    <cardsort>
+      <match order="1">
+        <premise>
+          <m>\begin{bmatrix}
+            0 \amp -1 \\
+            1 \amp 0 \\
+            \end{bmatrix}
+          </m>
+        </premise>
+        <response>
+          <figure>
+          <image width="50%">
+            <prefigure xmlns="https://prefigure.org"
+                label="prefigure-grid-1">
+            <diagram dimensions="(200,200)" margins="5">
+              <rectangle lower-left="(-10,-10)" dimensions="(220,220)" fill="white"/>
+              <coordinates bbox="(-3,-3,3,3)">
+                <grid-axes decorations="no"/>
+                <group transform="rotate(90)">
+                  <rectangle lower-left="(0,0)" dimensions="(1,1)"
+                    fill="cornflowerblue" stroke="black"/>
+                </group>
+              </coordinates>
+            </diagram>
+          </prefigure>
+          </image>
+        </figure>
+        </response>
+      </match>
+
+      <match order="2">
+        <premise>
+          <m>\begin{bmatrix}
+            -1 \amp 0 \\
+            0 \amp 2 \\
+            \end{bmatrix}
+          </m>
+        </premise>
+        <response>
+          <figure>
+          <image width="50%">
+            <prefigure xmlns="https://prefigure.org"
+                label="prefigure-grid-2">
+            <diagram dimensions="(200,200)" margins="5">
+              <rectangle lower-left="(-10,-10)" dimensions="(220,220)" fill="white"/>
+              <coordinates bbox="(-3,-3,3,3)">
+                <grid-axes decorations="no"/>
+                <group transform="scale(-1,2,[0,0])">
+                  <rectangle lower-left="(0,0)" dimensions="(1,1)"
+                    fill="cornflowerblue" stroke="black"/>
+                </group>
+              </coordinates>
+            </diagram>
+          </prefigure>
+          </image>
+        </figure>
+        </response>
+      </match>
+
+      <match order="3">
+        <premise>
+          <m>\begin{bmatrix}
+            1 \amp 1 \\
+            0 \amp 1 \\
+            \end{bmatrix}
+          </m>
+        </premise>
+        <response>
+          <figure>
+          <image width="50%">
+            <prefigure xmlns="https://prefigure.org"
+                label="prefigure-grid-3">
+            <diagram dimensions="(200,200)" margins="5">
+              <rectangle lower-left="(-10,-10)" dimensions="(220,220)" fill="white"/>
+              <coordinates bbox="(-3,-3,3,3)">
+                <grid-axes decorations="no"/>
+                <polygon points="((0,0),(1,0),(2,1),(1,1))" closed="yes"
+                    fill="cornflowerblue" stroke="black"/>
+              
+              </coordinates>
+            </diagram>
+          </prefigure>
+          </image>
+        </figure>
+        </response>
+      </match>
+
+      <match order="4">
+        <premise>
+          <m>\begin{bmatrix}
+            1 \amp 0 \\
+            0 \amp 1 \\
+            \end{bmatrix}
+          </m>
+        </premise>
+        <response>
+          <figure>
+          <image width="50%">
+            <prefigure xmlns="https://prefigure.org"
+                label="prefigure-grid-4">
+            <diagram dimensions="(200,200)" margins="5">
+              <rectangle lower-left="(-10,-10)" dimensions="(220,220)" fill="white"/>
+              <coordinates bbox="(-3,-3,3,3)">
+                <grid-axes decorations="no"/>
+                <group transform="rotate(0)">
+                  <rectangle lower-left="(0,0)" dimensions="(1,1)"
+                    fill="cornflowerblue" stroke="black"/>
+                </group>
+              </coordinates>
+            </diagram>
+          </prefigure>
+          </image>
+        </figure>
+        </response>
+      </match>
+    </cardsort>
+      
+  </exercise>
+
+-->
+  <exercise>
+    <title>Our amazing exercise</title>
+
+    <!--This is a comment-->
+    <introduction>
+      <p>
+        Suppose <m>A</m> be a <m>4\times10</m> matrix.
+      </p>
+    </introduction>
+
+    <task label="part-a-of-our-exercise">
+      <statement>
+        <p>
+          In the box below, enter the number of rows of the matrix <m>A</m>.
+        </p>
+      </statement>
+      <response/>
+    </task>
+
+    <task label="part-b-of-our-exercise">
+      <statement>
+        <p>
+          In the below, enter the number of columns of <m>A</m>.
+        </p>
+      </statement>
+      <response/>
+    </task>
+
+  </exercise>
+
+ <exercise>
+      <title>Identifying matrix transformations graphically</title>
+
+      <statement>
+        <p>
+          The unit square is depicted in <xref
+          ref="diagram-unit-square"/>.  The right columns shows the
+          image of the unit square under a matrix transformation.
+          Match each matrix in the left column with the corresponding
+          image of the unit square.
+        </p>
+
+        <figure xml:id="diagram-unit-square">
+          <caption>The unit square</caption>
+          <image width="40%">
+            <prefigure xmlns="https://prefigure.org"
+                       label="prefigure-unit-square">
+              <diagram dimensions="(200,200)" margins="5">
+                <rectangle lower-left="(-10,-10)"
+                           dimensions="(220,220)" fill="white"/>
+                <coordinates bbox="(-3,-3,3,3)">
+                  <grid-axes decorations="no"/>
+                  <group transform="rotate(0)">
+                    <rectangle lower-left="(0,0)" dimensions="(1,1)"
+                               fill="cornflowerblue" stroke="black"/>
+                  </group>
+                </coordinates>
+              </diagram>
+            </prefigure>
+          </image>
+        </figure>
+        
+      </statement>
+
+      <cardsort>
+        <match order="1">
+          <premise>
+            <m>\begin{bmatrix}
+            0 \amp -1 \\
+            1 \amp 0 \\
+            \end{bmatrix}
+            </m>
+          </premise>
+          <response>
+            <figure>
+              <image width="50%">
+                <prefigure xmlns="https://prefigure.org"
+                           label="prefigure-grid-1">
+                  <diagram dimensions="(200,200)" margins="5">
+                    <rectangle lower-left="(-10,-10)" dimensions="(220,220)" fill="white"/>
+                    <coordinates bbox="(-3,-3,3,3)">
+                      <grid-axes decorations="no"/>
+                      <group transform="rotate(90)">
+                        <rectangle lower-left="(0,0)" dimensions="(1,1)"
+                                   fill="cornflowerblue" stroke="black"/>
+                      </group>
+                    </coordinates>
+                  </diagram>
+                </prefigure>
+              </image>
+            </figure>
+          </response>
+        </match>
+
+        <match order="2">
+          <premise>
+            <m>\begin{bmatrix}
+            -1 \amp 0 \\
+            0 \amp 2 \\
+            \end{bmatrix}
+            </m>
+          </premise>
+          <response>
+            <figure>
+              <image width="50%">
+                <prefigure xmlns="https://prefigure.org"
+                           label="prefigure-grid-2">
+                  <diagram dimensions="(200,200)" margins="5">
+                    <rectangle lower-left="(-10,-10)"
+                               dimensions="(220,220)" fill="white"/>
+                    <coordinates bbox="(-3,-3,3,3)">
+                      <grid-axes decorations="no"/>
+                      <group transform="scale(-1,2,[0,0])">
+                        <rectangle lower-left="(0,0)" dimensions="(1,1)"
+                                   fill="cornflowerblue" stroke="black"/>
+                      </group>
+                    </coordinates>
+                  </diagram>
+                </prefigure>
+              </image>
+            </figure>
+          </response>
+        </match>
+
+        <match order="3">
+          <premise>
+            <m>\begin{bmatrix}
+            1 \amp 1 \\
+            0 \amp 1 \\
+            \end{bmatrix}
+            </m>
+          </premise>
+          <response>
+            <figure>
+              <image width="50%">
+                <prefigure xmlns="https://prefigure.org"
+                           label="prefigure-grid-3">
+                  <diagram dimensions="(200,200)" margins="5">
+                    <rectangle lower-left="(-10,-10)"
+                               dimensions="(220,220)" fill="white"/>
+                    <coordinates bbox="(-3,-3,3,3)">
+                      <grid-axes decorations="no"/>
+                      <polygon points="((0,0),(1,0),(2,1),(1,1))" closed="yes"
+                               fill="cornflowerblue" stroke="black"/>
+                      
+                    </coordinates>
+                  </diagram>
+                </prefigure>
+              </image>
+            </figure>
+          </response>
+        </match>
+
+        <match order="4">
+          <premise>
+            <m>\begin{bmatrix}
+            1 \amp 0 \\
+            0 \amp 1 \\
+            \end{bmatrix}
+            </m>
+          </premise>
+          <response>
+            <figure>
+              <image width="50%">
+                <prefigure xmlns="https://prefigure.org"
+                           label="prefigure-grid-4">
+                  <diagram dimensions="(200,200)" margins="5">
+                    <rectangle lower-left="(-10,-10)"
+                               dimensions="(220,220)" fill="white"/>
+                    <coordinates bbox="(-3,-3,3,3)">
+                      <grid-axes decorations="no"/>
+                      <group transform="rotate(0)">
+                        <rectangle lower-left="(0,0)" dimensions="(1,1)"
+                                   fill="cornflowerblue" stroke="black"/>
+                      </group>
+                    </coordinates>
+                  </diagram>
+                </prefigure>
+              </image>
+            </figure>
+          </response>
+        </match>
+      </cardsort>
+
+    </exercise>
+
+</section>
